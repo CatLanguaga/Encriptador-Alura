@@ -177,6 +177,8 @@ footer{
     }
     .encriptar{
         width: 100%;
+        display: inline-grid;
+        justify-content: center;
     }
     .input-entrada{
         box-shadow: none;
@@ -184,6 +186,8 @@ footer{
     }
     .desencriptar{
         width: 100%;
+        display: inline-grid;
+        justify-content: center;
     }
     .input-salida{
         box-shadow: none;
