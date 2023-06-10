@@ -1,0 +1,197 @@
+
+body{
+
+    background: #F3F5FC;
+    width: auto;
+}
+
+#particles-js{
+
+    background: #232741;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: -1;
+}
+
+header{
+    padding: 20px 0;
+}
+
+.titulo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #FFFEEB;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+main{
+    min-height: 100vh;
+}
+
+
+.logo{
+    position: absolute;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.centro{
+
+    padding: 50px;
+    width: 940px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text{
+    display: inline-flex;
+    margin: 3% 1.5%;
+
+}
+
+.input-entrada{
+    font-size: 25px;
+    color: #0a3871;
+    display: flex;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: -20px 20px 40px 1px #000000;
+}
+
+.answer{
+    display: inline-flex;
+    margin: 3% 1.5%;
+}
+
+
+.input-salida{
+    font-size: 25px;
+    color: #0a3871;
+    display: flex;
+    padding: 20px;
+    border: #F3F5FC;
+    border-radius: 20px;
+    box-shadow: 20px 20px 40px 1px #000000;
+
+}
+
+.encriptar{
+
+    width: 45%;
+}
+
+.desencriptar{
+
+    width: 45%;
+}
+
+.botton{
+    display: flex;
+    justify-content: center;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    margin: 0 1.5%;
+    font-weight: bold;
+    color:white;
+    background: #7582D9;
+    border:none;
+    border-radius: 25px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.copiar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    margin: 0 1.5%;
+    font-weight: bold;
+    color:white;
+    background: #7582D9;
+    border:none;
+    border-radius: 25px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.enviar:hover{
+    background: #5A64A6;
+    transform: scale(1.2);
+}
+
+.copiar:hover{
+    background: #5A64A6;
+    transform: scale(1.2);
+}
+
+footer{
+    text-align: center;
+    padding:40px;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
+
+
+
+@media screen and (max-width:480px){
+
+    body{
+        width: auto;
+    }
+    header{
+        margin: 0 61%;
+    }
+    .logo{
+        position: relative;
+    }
+    h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .centro{
+        padding: 0;
+        display: block;
+        width: 100%;
+    }
+    .encriptar{
+        width: 100%;
+    }
+    .input-entrada{
+        box-shadow: none;
+        font-size: 23px;
+    }
+    .desencriptar{
+        width: 100%;
+    }
+    .input-salida{
+        box-shadow: none;
+        font-size: 23px;
+    }
+    footer{
+
+        margin: 0 0 0 20%;
+    }
+
+}

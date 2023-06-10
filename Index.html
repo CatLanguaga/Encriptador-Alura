@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="script.js">
+
+        <title>Encriptador</title>
+    </head>
+
+    <body>
+
+        <div id="particles-js"></div>
+     
+        <header>
+
+            <a href="https://www.aluracursos.com"><h1><img src="imagenes/icono.png" alt="Logo" class="logo"></h1></a>
+
+            <h1 class="titulo">Encriptador</h1>
+
+        </header>
+
+        <main>
+
+            <div class="centro">
+
+            <div class="encriptar">
+                <section class="text">
+                
+                    <textarea name="" id="" cols="25" rows="10" class="input-entrada" placeholder="Ingrese el texto aqui"></textarea>
+
+                </section>
+            
+ 
+               
+                <section class="botton">
+
+                    <button class="enviar" onclick="Encriptar()">Encrpitar</button>
+
+                </section>
+
+            </div>
+
+            <div class="desencriptar">
+                
+                <section class="answer">
+
+                    <textarea name="" id="" cols="25" rows="10" class="input-salida"></textarea>
+
+                </section>
+
+                    
+                
+                <section class="botton">
+
+                    <button class="enviar" onclick="Desencriptar()">Desencriptar</button>
+                    <button class="copiar" onclick="copiar()">Copiar</button>
+
+                </section>
+            </div>
+            </div>
+
+        </main>
+
+        <footer>
+
+            <a href="https://github.com/CatLanguaga"><img src="imagenes/github.png" alt="Icono github"></a>
+            <a href="https://www.linkedin.com/in/omar-bautista-b3b66320b/"><img src="imagenes/linkedin.png" alt="Icono Linkedin"></a>
+            <p class="copyright">&copy Copyright Encriptador - 2023</p>
+
+        </footer>
+
+    </body>
+</html>
+
+<script src="script.js"></script>
+
+<script src="particles.min.js"></script>
+        <script>
+            particlesJS(
+
+                {
+                 "particles": {
+                    "number": {
+                    "value": 160,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                    },
+                    "color": {
+                    "value": "#ffffff"
+                    },
+                    "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+                    }
+                    },
+                    "opacity": {
+                    "value": 1,
+                    "random": true,
+                    "anim": {
+                        "enable": true,
+                        "speed": 1,
+                        "opacity_min": 0,
+                        "sync": false
+                    }
+                    },
+                    "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 4,
+                        "size_min": 0.3,
+                        "sync": false
+                    }
+                    },
+                    "line_linked": {
+                    "enable": false,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                    },
+                    "move": {
+                    "enable": true,
+                    "speed": 1,
+                    "direction": "none",
+                    "random": true,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 600
+                    }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "bubble"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "resize": true
+                    },
+                    "modes": {
+                    "grab": {
+                        "distance": 400,
+                        "line_linked": {
+                        "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 250,
+                        "size": 0,
+                        "duration": 2,
+                        "opacity": 0,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 400,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                    }
+                },
+                "retina_detect": true
+                }
+            )
+        </script>
